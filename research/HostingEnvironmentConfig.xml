@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HostingEnvironmentConfig version="1.0.0.0" goalStateIncarnation="1">
+  <StoredCertificates>
+    <StoredCertificate name="Cert0My" certificateId="sha1:4D8AF4A87923954E99F5B0921B1951602F9B6C7D" storeName="My" configurationLevel="System" />
+  </StoredCertificates>
+  <Deployment name="c9372c4a-926a-47c2-ba3c-852f7cad5cdf" guid="{152f5351-ea4b-4f1b-a75e-efd0d1611262}" incarnation="0" isNonCancellableTopologyChangeEnabled="false">
+    <Service name="__colemickens-firefox-bldr-vmService" guid="{00000000-0000-0000-0000-000000000000}" />
+    <ServiceInstance name="c9372c4a-926a-47c2-ba3c-852f7cad5cdf.0" guid="{99b7d5d4-ff51-4044-b7ea-4210a273f574}" />
+  </Deployment>
+  <Incarnation number="1" instance="_colemickens-firefox-bldr-vm" guid="{3afc9f86-4162-4627-8993-56b74602e301}" />
+  <Role guid="{c6c33734-2a9a-36e3-8661-dbf20c9ac608}" name="_colemickens-firefox-bldr-vm" hostingEnvironmentVersion="1" software="" softwareType="ApplicationPackage" entryPoint="" parameters="" />
+  <HostingEnvironmentSettings name="full" Runtime="rd_fabric_stable_dhf5.150807-2320.RuntimePackage_1.0.0.14.zip">
+    <CAS mode="full" />
+    <PrivilegeLevel mode="max" /><AdditionalProperties><CgiHandlers></CgiHandlers></AdditionalProperties></HostingEnvironmentSettings>
+  <ApplicationSettings>
+    <Setting name="ProvisionCertificate|Cert0My" value="sha1:4D8AF4A87923954E99F5B0921B1951602F9B6C7D" />
+  </ApplicationSettings>
+</HostingEnvironmentConfig>

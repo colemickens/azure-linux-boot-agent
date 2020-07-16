@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GoalState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="goalstate10.xsd">
+  <Version>2012-11-30</Version>
+  <Incarnation>1</Incarnation>
+  <Machine>
+    <ExpectedState>Started</ExpectedState>
+    <StopRolesDeadlineHint>300000</StopRolesDeadlineHint>
+    <LBProbePorts>
+      <Port>16001</Port>
+    </LBProbePorts>
+    <ExpectHealthReport>FALSE</ExpectHealthReport>
+  </Machine>
+  <Container>
+    <ContainerId>f34682bd-1291-45d5-995e-d9d568c268e5</ContainerId>
+    <RoleInstanceList>
+      <RoleInstance>
+        <InstanceId>c9372c4a-926a-47c2-ba3c-852f7cad5cdf._colemickens-firefox-bldr-vm</InstanceId>
+        <State>Started</State>
+        <Configuration>
+          <HostingEnvironmentConfig>http://168.63.129.16:80/machine/f34682bd-1291-45d5-995e-d9d568c268e5/c9372c4a%2D926a%2D47c2%2Dba3c%2D852f7cad5cdf.%5Fcolemickens%2Dfirefox%2Dbldr%2Dvm?comp=config&amp;type=hostingEnvironmentConfig&amp;incarnation=1</HostingEnvironmentConfig>
+          <SharedConfig>http://168.63.129.16:80/machine/f34682bd-1291-45d5-995e-d9d568c268e5/c9372c4a%2D926a%2D47c2%2Dba3c%2D852f7cad5cdf.%5Fcolemickens%2Dfirefox%2Dbldr%2Dvm?comp=config&amp;type=sharedConfig&amp;incarnation=1</SharedConfig>
+          <ExtensionsConfig>http://168.63.129.16:80/machine/f34682bd-1291-45d5-995e-d9d568c268e5/c9372c4a%2D926a%2D47c2%2Dba3c%2D852f7cad5cdf.%5Fcolemickens%2Dfirefox%2Dbldr%2Dvm?comp=config&amp;type=extensionsConfig&amp;incarnation=1</ExtensionsConfig>
+          <FullConfig>http://168.63.129.16:80/machine/f34682bd-1291-45d5-995e-d9d568c268e5/c9372c4a%2D926a%2D47c2%2Dba3c%2D852f7cad5cdf.%5Fcolemickens%2Dfirefox%2Dbldr%2Dvm?comp=config&amp;type=fullConfig&amp;incarnation=1</FullConfig>
+          <Certificates>http://168.63.129.16:80/machine/f34682bd-1291-45d5-995e-d9d568c268e5/c9372c4a%2D926a%2D47c2%2Dba3c%2D852f7cad5cdf.%5Fcolemickens%2Dfirefox%2Dbldr%2Dvm?comp=certificates&amp;incarnation=1</Certificates>
+          <ConfigName>c9372c4a-926a-47c2-ba3c-852f7cad5cdf.0.c9372c4a-926a-47c2-ba3c-852f7cad5cdf.0._colemickens-firefox-bldr-vm.1.xml</ConfigName>
+        </Configuration>
+      </RoleInstance>
+    </RoleInstanceList>
+  </Container>
+</GoalState>

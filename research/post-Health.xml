@@ -1,0 +1,19 @@
+  <?xml version="1.0" encoding="utf-8"?>
+  <Health xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <GoalStateIncarnation>1</GoalStateIncarnation>
+    <Container>
+      <ContainerId>6f2b8f64-f35c-4f84-a1b0-7e71ff8e454e</ContainerId>
+      <RoleInstanceList>
+        <Role>
+          <InstanceId>aa166a1dc9fb47d8befbb43b6849ce61.lars-test-1</InstanceId>
+          <Health>
+            <State>NotReady</State>
+            <Details>
+              <SubStatus>Provisioning</SubStatus>
+              <Description>Starting</Description>
+            </Details>
+          </Health>
+        </Role>
+      </RoleInstanceList>
+    </Container>
+  </Health>
