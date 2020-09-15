@@ -146,16 +146,10 @@ impl Agent {
         let cmd = cmd.spawn().expect("failed to start hostname");
         let status = cmd.await.expect("running hostname failed");
 
-        tokio::fs::write("/etc/hostname", &hostname)
-            .await
-            .expect("failed to update /etc/hostname");
-
-        if !status.success() {
-            error!("hostname call failed");
-            std::process::exit(-1); // TODO: error handling is all fucked up
+        match tokio::fs::write("/etc/hostname", &hostname).await {
+            Ok(_) => { return Ok(status); }
+            Err(e) => { error!("hostname call failed"); return Ok(status); }
         }
-        // TODO: handle status here
-        Ok(status)
     }
 
     // TODO: is this the same as reading it from /sys/devices/dmi/...? (from udev rule)
